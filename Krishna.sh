@@ -27,9 +27,9 @@ echo -e "\e[1;36m [+] Configuring System Files...\e[0m"
 # Clone and setup
 git clone https://github.com/krishna-M9/TERMUX
 
-# Replacing MixyZx with user input across all files
-sed -i "s/MixyZx/$user/g" TERMUX/bash.bashrc
-sed -i "s/MixyZx/$user/g" TERMUX/wlc.py
+# Replacing Krishna with user input across all files
+sed -i "s/Krishna/$user/g" TERMUX/bash.bashrc
+sed -i "s/Krishna/$user/g" TERMUX/wlc.py
 
 cp TERMUX/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 cp TERMUX/wlc.py /data/data/com.termux/files/usr/etc/wlc.py
